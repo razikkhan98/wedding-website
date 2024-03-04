@@ -7,10 +7,6 @@ const Button = ({link , style , title}) => {
         {title}
         <i class="fa-solid fa-arrow-right"></i>
       </a>
-      {/* <a href="#" class="theme-btn">
-        About More
-        <i class="fa-solid fa-arrow-right"></i>
-      </a> */}
     </>
   );
 };
