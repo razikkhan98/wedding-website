@@ -10,22 +10,9 @@ const About = () => {
       <div class="about-area position-relative d-block mb-4 py-120">
         <div class="container">
           <div class="row align-items-center">
+            
             <div class="col-lg-6">
-              <div class="about-left position-relative">
-                <div class="about-img">
-                  <img src={AboutImg} alt="Loading" />
-                </div>
-                <div class="about-experience">
-                  <h1>
-                    25 <span>+</span>
-                  </h1>
-                  <span class="about-experience-text">Years Of Experience</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="about-right position-relative d-block">
+              <div class="about-left position-relative d-block">
                 <div class="site-content mb-3">
                   <span class="site-title">About Us</span>
                   <h2 class="site-heading">
@@ -82,6 +69,21 @@ const About = () => {
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-6">
+              <div class="about-right position-relative">
+                <div class="about-img">
+                  <img src={AboutImg} alt="Loading" />
+                </div>
+                <div class="about-experience">
+                  <h1>
+                    25 <span>+</span>
+                  </h1>
+                  <span class="about-experience-text">Years Of Experience</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

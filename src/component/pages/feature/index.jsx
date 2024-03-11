@@ -31,7 +31,7 @@ const FeatureArea = () => {
   return (
     <>
       {/* <!--  Feature-area start --> */}
-      <div class="feature-area position-relative pt-120">
+      <div class="feature-area position-relative py-120">
         <div class="container">
           <div class="row ">
             {FeatureData.map((link, index) => (
