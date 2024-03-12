@@ -1,11 +1,12 @@
 import React from "react";
 import Feedback from "../Modal/Feedback";
+import logo from "../../asset/images/wedding_website_colour_themeandlogo.png";
 
 const Navbar = () => {
   return (
     <>
       {/* <!--  Navigation Start --> */}
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <button
             class="navbar-toggler"
@@ -19,8 +20,8 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
-              Hidden brand
+            <a class="navbar-logo" href="#">
+            <img src={logo} alt="Loading" />
             </a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -56,7 +57,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  class="theme-btn"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >

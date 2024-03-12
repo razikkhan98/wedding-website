@@ -60,6 +60,7 @@ function Services() {
       <div class="service-area bg position-relative py-120">
         <div class="container">
           <Heading title='Our Service' heading1='Our Awesome' heading2='Service'/>
+          
           <div
             id="carouselExampleIndicators"
             class="carousel slide"

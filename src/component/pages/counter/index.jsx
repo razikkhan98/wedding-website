@@ -27,7 +27,7 @@ const Counter = () => {
     <>
       {/* <!--  Counter-area Start --> */}
 
-      <div class="counter-area position-relative py-120">
+      <div class="counter-area position-relative pt-120">
         <div class="container">
           <div class="counter-wrapper bg">
             <div class="row">
